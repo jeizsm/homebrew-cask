@@ -9,6 +9,8 @@ cask 'qbittorrent' do
   name 'qBittorrent'
   homepage 'https://www.qbittorrent.org/'
 
+  auto_updates true
+
   # Renamed for consistency: app name is different in the Finder and in a shell.
   app 'qbittorrent.app', target: 'qBittorrent.app'
 end

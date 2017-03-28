@@ -8,6 +8,8 @@ cask 'discord' do
 
   app 'Discord.app'
 
+  auto_updates true
+
   zap delete: [
                 '~/Library/Application Support/com.hnc.Discord.ShipIt',
                 '~/Library/Application Support/discord',

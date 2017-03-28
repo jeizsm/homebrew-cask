@@ -16,6 +16,8 @@ cask 'virtualbox' do
   name 'Oracle VirtualBox'
   homepage 'https://www.virtualbox.org/'
 
+  auto_updates true
+
   pkg 'VirtualBox.pkg'
 
   uninstall script:  {
